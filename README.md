@@ -10,3 +10,22 @@ How to use the pointer stars of the Plough to find Polaris, the North Star\
 How to star-hop from one constellation to another\
 Why the sky appears to rotate around Polaris over the night and through the year\
 The myths and stories behind each constellation\
+
+## How will they learn it? ##
+  
+### Step 1: Spot the Shape
+The Plough appears on the ceiling with a short voice-over introduction. The learner points at each star in order to trace the shape, and the constellation lines draw themselves in as they go.
+ 
+### Step 2: Pointer Stars
+The two end stars of the Plough are highlighted. The learner drags a line out from these pointer stars and follows it across the sky to find Polaris, the North Star.
+ 
+### Step 3: Star-Hopping
+The learner is guided from Polaris to Cassiopeia, and from Orion's belt to Sirius. They hop from star to star using what they learned in the earlier steps.
+ 
+### Step 4: The Moving Sky
+A star wheel appears in the learner's hand. They grab and rotate it to change the month and hour, and watch the whole sky turn around Polaris. This shows why it is the one star that stays still.
+ 
+### Step 5: Lights Out (Final Test)
+All lines and labels are hidden, and a voice asks the learner to "Find north". They have to find Polaris from memory, and are scored on time and accuracy.
+ 
+**Feedback:** correct answers trigger a chime, particles and a haptic pulse. Wrong answers give a hint, such as briefly flashing the correct star or replaying the last step. Progress and scores are shown on a floating 3D UI panel.
