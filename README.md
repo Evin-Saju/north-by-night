@@ -44,3 +44,6 @@ All lines and labels are hidden, and a voice asks the learner to "Find north". T
 | **Spatial Audio** | Voice-over and myths played from each constellation's position, plus ambient night sounds |
 | **Timers** | Scoring the final challenge |
 | **Signals** | Communication between stars, levels and the UI (for example `star_selected` and `level_complete`) |
+
+## My Group ##
+I will be doing this project alone and all code and ideas made for this project will be used entirely with my own creativity.
