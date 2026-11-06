@@ -29,3 +29,18 @@ A star wheel appears in the learner's hand. They grab and rotate it to change th
 All lines and labels are hidden, and a voice asks the learner to "Find north". They have to find Polaris from memory, and are scored on time and accuracy.
  
 **Feedback:** correct answers trigger a chime, particles and a haptic pulse. Wrong answers give a hint, such as briefly flashing the correct star or replaying the last step. Progress and scores are shown on a floating 3D UI panel.
+
+## Technology and Libraries ##
+ 
+| Technology | What it is used for |
+|------------|---------------------|
+| **Godot 4 + OpenXR** | Engine and XR runtime |
+| **[Godot OpenXR Vendors](https://github.com/GodotVR/godot_openxr_vendors)** | Passthrough, hand tracking, and the Meta Scene SDK (finding the ceiling and walls to place the sky and compass directions) |
+| **[Godot XR Tools](https://github.com/GodotVR/godot-xr-tools)** | Pointer function for selecting stars, pickables for the star wheel and chart, 3D UI viewports |
+| **[Hand Pose Detector](https://github.com/Malcolmnixon/GodotHandPoseDetector)** | Open palm and fist gestures for revealing and hiding constellation artwork |
+| **Shaders** | Twinkling stars, glowing constellation lines |
+| **Tweens / AnimationPlayer** | Lines drawing in, artwork fading in, sky rotation |
+| **GPU Particles** | Feedback effects when the learner gets an answer right |
+| **Spatial Audio** | Voice-over and myths played from each constellation's position, plus ambient night sounds |
+| **Timers** | Scoring the final challenge |
+| **Signals** | Communication between stars, levels and the UI (for example `star_selected` and `level_complete`) |
